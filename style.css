@@ -1,0 +1,33 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+   background-color: #8e44ad;
+   color: white;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   height: 100vh;
+   overflow: hidden;
+   margin: 0; 
+}
+
+.counter-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 30px 50px;
+    text-align: center;
+}
+
+.counter{
+    font-size: 60px;
+    margin-top: 10px;
+}
+
+@media (max-width:580) {
+    body{
+        flex-direction: column;
+    }
+}
